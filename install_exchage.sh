@@ -1,6 +1,6 @@
 yum install -y centos-release epel-release
 
-#yum install redis 
+#yum install redis libaio
 
 #mysql
 #rpm -ivh https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-community-common-8.0.12-1.el7.x86_64.rpm
