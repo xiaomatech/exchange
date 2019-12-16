@@ -17,7 +17,7 @@ useradd kafka -u 1019 -s /sbin/nologin
 mkdir -p /etc/kafka /var/log/kafka /var/run/kafka
 chown -R kafka:kafka /etc/kafka /var/log/kafka /var/run/kafka
 
-yum install -y jdk
+yum install -y java-1.8.0-openjdk-devel java-11-openjdk-devel
 
 wget http://mirrors.aliyun.com/apache/kafka/2.0.0/kafka_2.11-2.0.0.tgz -O /tmp/kafka_2.11-2.0.0.tgz
 tar -zxf /tmp/kafka_2.11-2.0.0.tgz -C /opt
