@@ -42,7 +42,7 @@ mkdir -p /etc/zookeeper /var/log/zookeeper /var/run/zookeeper
 chown -R zookeeper:zookeeper /etc/zookeeper /var/log/zookeeper /var/run/zookeeper
 
 
-yum install -y jdk
+yum install -y java-1.8.0-openjdk-devel java-11-openjdk-devel
 
 wget http://yum.meizu.mz/hadoop/zookeeper-3.4.10.tar.gz -O /tmp/zookeeper-3.4.10.tar.gz
 tar -zxf /tmp/zookeeper-3.4.10.tar.gz -C /opt
